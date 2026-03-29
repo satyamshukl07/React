@@ -1,20 +1,15 @@
 import "./App.css";
-import Title from "./Title.jsx";
 import ProductTab from "./ProductTab.jsx";
-
-
-// function Description(){
-//   return <h3> Iam The  Description</h3>;
-// }
-
 
 function App() {
 
-  return <ProductTab/>; 
-  //   <Title/>
-  //   <Title/>
-  //   <Title/>
-  // </>;
+  return (
+  <>
+              <h2 style={{textAlign: "center"}}>Blockbuster Deals| shop now</h2>
+
+  <ProductTab/>
+</>
+  ); 
 }
 
 export default App

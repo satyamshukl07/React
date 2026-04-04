@@ -50,6 +50,13 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+body {
+  margin: 0;
+}
+
+>>>>>>> e807eaecd1308d08d71b611e4e7bbb0a71a73f45
 #root {
   width: 1126px;
   max-width: 100%;
@@ -62,10 +69,13 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
   margin: 0;
 }
 
+=======
+>>>>>>> e807eaecd1308d08d71b611e4e7bbb0a71a73f45
 h1,
 h2 {
   font-family: var(--heading);

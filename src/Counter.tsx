@@ -3,10 +3,10 @@ export default function Counter(){
  // let [stateVariable, setStateVariable] = useState(10);
   let [count , setCount] = useState(0);
   //console.log(arr);
-
+  console.log("Component is renderd!");
+    console.log(`count = ${count}`);
   let incCount= () => {
      setCount(count+1);
-     console.log(count);
 
   };
 

@@ -1,6 +1,8 @@
 import "./App.css";
-import Title from "./Title.jsx";
-import ProductTab from "./ProductTab.jsx";
+import Counter from "./Counter";
+//import Title from "./Title.jsx";
+//import ProductTab from "./ProductTab.jsx";
+import LikeButton from "./LikeButton";
 
 
 // function Description(){
@@ -10,11 +12,11 @@ import ProductTab from "./ProductTab.jsx";
 
 function App() {
 
-  return <ProductTab/>; 
-  //   <Title/>
-  //   <Title/>
-  //   <Title/>
-  // </>;
+  return(
+  <>
+  <p>States in React</p> 
+<Cuonter />
+</>
+  );
 }
-
-export default App
+export default App;

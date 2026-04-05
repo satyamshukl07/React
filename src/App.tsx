@@ -1,14 +1,17 @@
+import { useState } from "react";
 
-import './App.css'
-import Counter from "./Counter";
-function App() {
-  return(
-  <>
-  <h1>States in React</h1>
-  <Counter/>
-  </>
-  
-  );
+export default function LikeButton() {
+    const [isLiked, setIsLike] = useState(false);
+
+    const toggleLike = () => {
+        setIsLike(!isLiked);
+    };
+
+    return (
+        <div>
+            <p onClick={toggleLike}>
+                <i className="fa-regular fa-heart"></i>
+            </p>
+        </div>
+    );
 }
-
-export default App;
